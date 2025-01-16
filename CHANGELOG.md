@@ -220,6 +220,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* Revert "feat: removes unused agent group config downgrade code" [#8946](https://github.com/deepflowio/deepflow/pull/8946) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: Support reclaiming page cache for agent [#8928](https://github.com/deepflowio/deepflow/pull/8928) by [rvql](https://github.com/rvql)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
