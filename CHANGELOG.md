@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Memory profile memory leak [#8985](https://github.com/deepflowio/deepflow/pull/8985) by [rvql](https://github.com/rvql)
+* fix: query skywalking data update resource info [#8981](https://github.com/deepflowio/deepflow/pull/8981) by [taloric](https://github.com/taloric)
+* fix: invalid api response type [#8979](https://github.com/deepflowio/deepflow/pull/8979) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: ignoring the query result in ByConity cause a failure [#8977](https://github.com/deepflowio/deepflow/pull/8977) by [lzf575](https://github.com/lzf575)
+* fix: ignoring the query result in ByConity cause a failure [#8974](https://github.com/deepflowio/deepflow/pull/8974) by [lzf575](https://github.com/lzf575)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +225,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier add timeout_ratio [#8973](https://github.com/deepflowio/deepflow/pull/8973) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: support vtap_group_ids in npb_policy [#8966](https://github.com/deepflowio/deepflow/pull/8966) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
