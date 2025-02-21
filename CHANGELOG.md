@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: false positive grpc when tcp segmented [#9161](https://github.com/deepflowio/deepflow/pull/9161) by [rvql](https://github.com/rvql)
+* fix: Some settings not updated [#9159](https://github.com/deepflowio/deepflow/pull/9159) by [rvql](https://github.com/rvql)
+* fix: invalid include region [#9148](https://github.com/deepflowio/deepflow/pull/9148) by [askyrie](https://github.com/askyrie)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +223,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent list add pod cluster [#9152](https://github.com/deepflowio/deepflow/pull/9152) by [askyrie](https://github.com/askyrie)
+* feat: add dpdk ebpf windows [#9151](https://github.com/deepflowio/deepflow/pull/9151) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: querier support native fields [#9132](https://github.com/deepflowio/deepflow/pull/9132) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
