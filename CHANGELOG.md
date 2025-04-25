@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: TARS parse panic [#9557](https://github.com/deepflowio/deepflow/pull/9557) by [rvql](https://github.com/rvql)
+* fix: recorder fails to clean dirty data [#9549](https://github.com/deepflowio/deepflow/pull/9549) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
