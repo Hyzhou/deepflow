@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: filter invalid cidr [#9592](https://github.com/deepflowio/deepflow/pull/9592) by [askyrie](https://github.com/askyrie)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -493,6 +494,7 @@
 * perf: improve parsing RequestResource from http.url of OTel data [#7172](https://github.com/deepflowio/deepflow/pull/7172) by [lzf575](https://github.com/lzf575)
 
 #### Documentation
+* docs: update agent config description [#9591](https://github.com/deepflowio/deepflow/pull/9591) by [lzf575](https://github.com/lzf575)
 * docs: polish compression config [#7701](https://github.com/deepflowio/deepflow/pull/7701) by [sharang](https://github.com/sharang)
 * docs: agent correct the description of inputs.ebpf.socket.tunning [#7664](https://github.com/deepflowio/deepflow/pull/7664) by [TomatoMr](https://github.com/TomatoMr)
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
