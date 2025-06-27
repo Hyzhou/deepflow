@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Multi ns packet capture and socket sync [#9955](https://github.com/deepflowio/deepflow/pull/9955) by [rvql](https://github.com/rvql)
+* fix: matching service, no VPC verification first [#9950](https://github.com/deepflowio/deepflow/pull/9950) by [lzf575](https://github.com/lzf575)
+* fix: incorrect l7 ebpf packet size [#9945](https://github.com/deepflowio/deepflow/pull/9945) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
