@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: sets wrong domain filter value in agent group config [#10334](https://github.com/deepflowio/deepflow/pull/10334) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: auto enable agent sync workload-v [#10328](https://github.com/deepflowio/deepflow/pull/10328) by [askyrie](https://github.com/askyrie)
+* fix: concurrent write vtap synced_controller_at [#10320](https://github.com/deepflowio/deepflow/pull/10320) by [askyrie](https://github.com/askyrie)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
