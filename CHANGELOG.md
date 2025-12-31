@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: filter exist mac [#11169](https://github.com/deepflowio/deepflow/pull/11169) by [askyrie](https://github.com/askyrie)
+* fix: querier show tag biz service group values filter error [#11159](https://github.com/deepflowio/deepflow/pull/11159) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +222,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add trace_score for trace_tree [#11168](https://github.com/deepflowio/deepflow/pull/11168) by [taloric](https://github.com/taloric)
+* feat: eBPF Add a virtual file collection switch for IO events [#11167](https://github.com/deepflowio/deepflow/pull/11167) by [yinjiping](https://github.com/yinjiping)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
