@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: clean wrong resource data in recorder [#11217](https://github.com/deepflowio/deepflow/pull/11217) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: check_payload one more time when parse_paylaod in custom [#11213](https://github.com/deepflowio/deepflow/pull/11213) by [taloric](https://github.com/taloric)
+* fix: modify biz decode schema for web product requirement [#11206](https://github.com/deepflowio/deepflow/pull/11206) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +223,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: eBPF Optimize datadump [#11198](https://github.com/deepflowio/deepflow/pull/11198) by [yinjiping](https://github.com/yinjiping)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
