@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: update extra_filters parse to directly query [#11291](https://github.com/deepflowio/deepflow/pull/11291) by [taloric](https://github.com/taloric)
+* fix: tolerate unknown CFI instructions on ARM64 DWARF parsing for nodejs [#11277](https://github.com/deepflowio/deepflow/pull/11277) by [kylewanginchina](https://github.com/kylewanginchina)
+* fix: correct dwarf unwind for rust and python in arm [#11273](https://github.com/deepflowio/deepflow/pull/11273) by [kylewanginchina](https://github.com/kylewanginchina)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +223,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support custom service match without port [#11296](https://github.com/deepflowio/deepflow/pull/11296) by [lzf575](https://github.com/lzf575)
+* feat: modify agent group config changelog column [#11294](https://github.com/deepflowio/deepflow/pull/11294) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: iso8583 endpoint rewrite [#11293](https://github.com/deepflowio/deepflow/pull/11293) by [lzf575](https://github.com/lzf575)
+* feat: webspheremq parse in agent [#11226](https://github.com/deepflowio/deepflow/pull/11226) by [lzf575](https://github.com/lzf575)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
