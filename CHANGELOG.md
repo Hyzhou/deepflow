@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: use the Pod cluster ID to match the service [#11297](https://github.com/deepflowio/deepflow/pull/11297) by [lzf575](https://github.com/lzf575)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +221,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: eBPF datadump capture all data by default when no filters are set [#11300](https://github.com/deepflowio/deepflow/pull/11300) by [yinjiping](https://github.com/yinjiping)
+* feat: Update message to add new remote exec command [#11298](https://github.com/deepflowio/deepflow/pull/11298) by [rvql](https://github.com/rvql)
+* feat: genesis sync add diff log [#11295](https://github.com/deepflowio/deepflow/pull/11295) by [askyrie](https://github.com/askyrie)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
@@ -502,6 +506,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* support save header and biz_response_code [#11303](https://github.com/deepflowio/deepflow/pull/11303) by [rvql](https://github.com/rvql)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
 * Update typo in comments [#8127](https://github.com/deepflowio/deepflow/pull/8127) by [Hyzhou](https://github.com/Hyzhou)
