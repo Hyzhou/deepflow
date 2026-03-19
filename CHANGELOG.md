@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: response_code support zero value in pcap verify api [#11483](https://github.com/deepflowio/deepflow/pull/11483) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: PCap replay crashes with custom protocol [#11482](https://github.com/deepflowio/deepflow/pull/11482) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +222,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add alarm related table [#11480](https://github.com/deepflowio/deepflow/pull/11480) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: eBPF Add the relevant XDP CPU balancer related code [#11268](https://github.com/deepflowio/deepflow/pull/11268) by [yinjiping](https://github.com/yinjiping)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
