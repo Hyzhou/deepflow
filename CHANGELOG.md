@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: update alert event table for all ORGs [#11518](https://github.com/deepflowio/deepflow/pull/11518) by [lzf575](https://github.com/lzf575)
 * fix: agent - eBPF Total process message initialization (#8331) [#8334](https://github.com/deepflowio/deepflow/pull/8334) by [yinjiping](https://github.com/yinjiping)
 * fix: remove dynamic libpcap [#8321](https://github.com/deepflowio/deepflow/pull/8321) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: when EPC is unknown, region should not be unknown [#8315](https://github.com/deepflowio/deepflow/pull/8315) by [lzf575](https://github.com/lzf575)
@@ -220,6 +221,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: alarm event add column updated_at [#11530](https://github.com/deepflowio/deepflow/pull/11530) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: Support parsing trace id from list encoding [#11526](https://github.com/deepflowio/deepflow/pull/11526) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add ci to check dynamic libs [#8326](https://github.com/deepflowio/deepflow/pull/8326) by [jiumos](https://github.com/jiumos)
@@ -493,6 +496,7 @@
 * perf: improve parsing RequestResource from http.url of OTel data [#7172](https://github.com/deepflowio/deepflow/pull/7172) by [lzf575](https://github.com/lzf575)
 
 #### Documentation
+* docs: Add agent notes [#11527](https://github.com/deepflowio/deepflow/pull/11527) by [rvql](https://github.com/rvql)
 * docs: polish compression config [#7701](https://github.com/deepflowio/deepflow/pull/7701) by [sharang](https://github.com/sharang)
 * docs: agent correct the description of inputs.ebpf.socket.tunning [#7664](https://github.com/deepflowio/deepflow/pull/7664) by [TomatoMr](https://github.com/TomatoMr)
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
